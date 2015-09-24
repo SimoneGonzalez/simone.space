@@ -184,8 +184,7 @@ module.exports = function(grunt) {
     'sass:prod',
     'autoprefixer',
     'uglify',
-    'cssmin',
-    'connect'
+    'cssmin'
   ]);
   grunt.registerTask('build-dev', [
     'clean',

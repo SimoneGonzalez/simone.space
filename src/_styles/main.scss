@@ -101,8 +101,6 @@ hr {
 }
 
 .projects {
-  margin-bottom: 50px;
-  height: 400px;
   .proj {
     height: 300px;
     width: 100%;
@@ -117,7 +115,7 @@ hr {
   margin-top: 5px;
 }
 
-.skills:before, .projects:before {
+.projects:before {
   content: ' ';
   width: 100%;
   height: 100%;
