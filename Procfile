@@ -1,1 +1,1 @@
-web: grunt build | http index.html
+web: grunt build | grunt connect
