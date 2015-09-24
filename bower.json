@@ -1,0 +1,21 @@
+{
+  "name": "mySite",
+  "version": "1.0.0",
+  "homepage": "n/a",
+  "authors": [
+    "Simone Gonzalez <simone.b.gonzalez@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "devicon": "*",
+    "foundation": "~5.5.2",
+    "jquery": "~2.1.4"
+  }
+}

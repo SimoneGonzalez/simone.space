@@ -1,0 +1,155 @@
+
+@import url('https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Didact+Gothic');
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 44px;
+}
+p, h5, h3, a {
+  font-family: Didact Gothic, sans-serif;
+}
+
+.github {
+  height: 20px;
+}
+
+.thick {
+height: 25px;
+width: 100%;
+background-image: url('../images/congruent_outline.png');
+opacity: .8;
+}
+
+.top {
+  background-image: url('../images/congruent_outline.png');
+  bckground-size: cover;
+  width: 100%;
+  //opacity: .6;
+  color: white;
+  overflow: hidden;
+  a {
+      color: turquoise;
+    }
+  ul {
+        padding-left: 20%;
+  }
+  li {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px;
+  }
+}
+
+hr {
+  height: 1px;
+  background: -linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  opacity: 0.8;
+}
+
+.center {
+  height: 25px;
+  margin: 15px;
+}
+
+.about:before {
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -10;
+  background-color: rgba(0,139,139, .4);
+  background-image: url("../images/sunset.jpg");
+  z-index: -1;
+  opacity: .2;
+  overflow: hidden;
+}
+
+.about {
+  margin-bottom: 30px;
+  h1 {
+    margin-top: 50px;
+  }
+  img {
+    margin-bottom: 50px;
+  }
+  h3 {
+    padding-bottom: 15px;
+  }
+}
+.me {
+  img {
+    border-radius: 5px 5px;
+  }
+  p {
+    padding-top: 110px;
+    font-size: 18px;
+  }
+}
+
+.tech {
+  margin-top: 50px;
+  text-align: center;
+  ul {
+    font-size: 3em;
+    margin: 0;
+    li {
+      padding: 10px;
+    }
+  }
+}
+
+.projects {
+  margin-bottom: 50px;
+  height: 400px;
+  .proj {
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .pro {
+    text-align: center;
+  }
+}
+
+.pro {
+  margin-top: 5px;
+}
+
+.skills:before, .projects:before {
+  content: ' ';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../images/light_toast.png");
+  z-index: -1;
+  overflow: hidden;
+}
+
+.connect {
+  width: 100%;
+  background-image: url("../images/gray_sand.png");
+  overflow: hidden;
+}
+
+.connect {
+  h6 {
+    color: turquoise;
+  }
+}
+
+$gradient: linear-gradient(45deg, pink, skyblue, turquoise);
+
+.sub {
+  color: transparent;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  border: 4px solid transparent;
+  border-image: $gradient;
+  border-image-slice: 1;
+  background: $gradient;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  transition: all 0.2s ease;
+}

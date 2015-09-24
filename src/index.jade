@@ -1,0 +1,106 @@
+doctype html
+html(lang="en")
+  head
+    title Simone Gonzalez | Software Engineer
+    link(rel="shortcut icon" href="../images/favicons/favicon-32x32.png")
+    link(rel="icon" type="image/png" sizes="32x32" href="../images/favicons/favicon-32x32.png")
+    link(rel="icon" type="image/png" sizes="96x96" href="../images/favicons/favicon-96x96.png")
+    link(rel="icon" type="image/png" sizes="16x16" href="../images/favicons/favicon-16x16.png")
+    link(rel="manifest" href="../images/favicons/manifest.json")
+    link(rel="stylesheet" href="../css/main.css")
+  body
+    .content
+      //- top bar
+      .top.show-for-large-up
+        .large-6.small-6.columns
+          ul
+            li
+              a(href="/") SimoneGonzalez
+        .large-2.columns
+
+        .large-4.small-6.columns
+          ul
+            li
+              a(href="#about") About
+            li
+              a(href="#projects") Projects
+            li
+              a(href="#skills") Skills
+            li
+              a(href="#connect") Connect
+
+      .about
+        //- ABOUT
+        .row
+          .about-title.columns
+            a(name="about")
+              h1 Simone Gonzalez
+            h3 Software Developer | Adventure Seeker
+        .row.me
+          .large-6.columns
+            img(src="../images/camel.JPG")
+          .large-6.columns
+            p Expressing gratitude daily. <br> Being Powerful Beyond Measure. <br> I find joy in creating things that improve the lives of others.
+
+      .thick
+
+      .projects
+        //- projects
+        .row
+          .columns.pro
+            a(name="projects")
+              h5.sub Projects
+        .row
+          .large-6.small-12.columns
+            img(src="../images/magnetize.png").proj
+            .row
+              .columns.small-6
+                a(href="https://github.com/SimoneGonzalez" target="_blank")
+                  img(src="../images/githubSqr.png").github
+              .columns.small-6
+                a(href="" target="_blank")
+                  p Project Page
+          .large-6.small-12.columns.mag
+            img(src="../images/magnetize.png").proj
+            .row
+              .columns.small-6
+                a(href="https://github.com/SimoneGonzalez/Magnetize" target="_blank")
+                  img(src="../images/githubSqr.png").github
+              .columns.small-6
+                a(href="magnetize.simone.space" target="_blank")
+                  p Project Page
+      .tech
+        //- Technologies
+        hr
+        .row
+          .columns
+            a(name="skills")
+              h5.sub Skills
+        .row
+          .columns
+            ul
+              li:i.devicon-html5-plain-wordmark
+              li:i.devicon-css3-plain-wordmark
+              li:i.devicon-sass-original
+              li:i.devicon-javascript-plain
+              li:i.devicon-jquery-plain-wordmark
+              li:i.devicon-angularjs-plain
+              li:i.devicon-bootstrap-plain
+              li:i.devicon-foundation-plain
+              li:i.devicon-grunt-line
+              li:i.devicon-mongodb-plain
+              li:i.devicon-nodejs-plain-wordmark
+              li:i.devicon-git-plain
+      .connect
+        //- connect
+        .row
+          a(name="connect")
+            h6 Connect With Me
+          //- probably large-offset-#
+          .small-2.large-4.columns
+            //- linkedin
+            a(href="https://www.linkedin.com/in/simonegonzalez" target="_blank")
+              img(src="../images/linkedin.png").center
+            //- email
+            a(href="mailto:simone.b.gonzalez@gmail.com")
+              img(src="../images/email.png").center
